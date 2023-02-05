@@ -1,0 +1,44 @@
+#content {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#left-side {
+    float: left;
+    width: 33.33%;
+    background-color: red;
+}
+
+#right-side {
+    float: right;
+    width: 66.66%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#logo-text {
+    position: relative;
+    top: calc(50% - 250px); /* moves the rectangle 50px above the middle */
+    width: 100%;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+#header-text {
+    background-color: aqua;
+    height: 34.5%;
+}
+
+#form {
+    background-color: yellow;
+    height: 50%;
+}
+
+#log-in {
+    background-color: green;
+    height: 15.5%;
+}
