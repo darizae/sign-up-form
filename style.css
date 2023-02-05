@@ -8,7 +8,14 @@
 #left-side {
     float: left;
     width: 33.33%;
-    background-color: red;
+}
+
+#logo-text {
+    position: absolute;
+    top: calc(50% - 250px); /* moves the rectangle 50px above the middle */
+    width: 33.4%;
+    height: 100px;
+    background-color: lightgreen;
 }
 
 #right-side {
@@ -18,14 +25,6 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-}
-
-#logo-text {
-    position: relative;
-    top: calc(50% - 250px); /* moves the rectangle 50px above the middle */
-    width: 100%;
-    height: 100px;
-    background-color: lightgreen;
 }
 
 #header-text {
