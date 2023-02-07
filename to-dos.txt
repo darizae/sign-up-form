@@ -1,0 +1,7 @@
+- Set layout of form section
+
+- Additional features of form section
+
+- Login section
+
+- Set option for light or dark mode (system default)
