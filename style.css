@@ -16,6 +16,22 @@
     width: 33.4%;
     height: 100px;
     background-color: lightgreen;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-text p {
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+#logo-text img {
+    margin-right: 10px;
 }
 
 #right-side {
