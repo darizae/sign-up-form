@@ -5,6 +5,12 @@ body {
     width: 100%;
 }
 
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #left-side {
     float: left;
     width: 33.33%;
@@ -16,12 +22,10 @@ body {
     top: calc(50% - 250px); /* moves the rectangle 50px above the middle */
     width: 33.4%;
     height: 100px;
+    font-family: 'Courier New', Courier, monospace;
     background-color: lightgreen;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #left-side img[src="img/forest-image.jpg"] {
@@ -33,7 +37,6 @@ body {
 #logo-text p {
     display: flex;
     align-items: center;
-    font-family: 'Courier New', Courier, monospace;
     font-size: larger;
 }
 
@@ -51,9 +54,21 @@ body {
 }
 
 #header-text {
-    background-color: aqua;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
     height: 34.5%;
+    padding: 1em;
 }
+
+#header-text p {
+    max-width: 50%;
+    width: 100%;
+  }
+  
 
 #form {
     background-color: yellow;
