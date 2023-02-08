@@ -1,7 +1,9 @@
-- Set layout of form section
+- Style form
+
+- Login section
 
 - Additional features of form section
 
-- Login section
+- Center quote so it's sort of aligned to form
 
 - Set option for light or dark mode (system default)
