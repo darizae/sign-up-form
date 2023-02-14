@@ -11,6 +11,11 @@ body {
     align-items: center;
 }
 
+p,
+a {
+    color: aliceblue;
+}
+
 #left-side {
     float: left;
     width: 33.33%;
@@ -47,14 +52,14 @@ body {
 #right-side {
     float: right;
     width: 66.66%;
-    background-color: blue;
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
 
 #header-text {
-    background-color: white;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,14 +77,15 @@ body {
   
 
 #form-div {
-    background-color: white;
-    height: 55%; /* increase the height */
+    background-color: black;
+    height: 58%; /* increase the height */
     display: flex;
     justify-content: center;
     padding: 1em; /* increase the padding */
     background-image: url(img/wood-texture.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 15px;
 }
   
 
@@ -118,6 +124,12 @@ form label {
   form input[type="tel"]::placeholder {
     color: rgba(0, 0, 0, 0.5);
   }
+
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 10px yellow;
+  }
+  
   
   button {
     background-color: white;
@@ -136,11 +148,13 @@ form label {
     background-color: #f4f404;
   }
   
-  
-
 #log-in {
-    background-color: green;
+    background-color: black;
     height: 15.5%;
+}
+
+#login-text {
+    font-size: 20px;
 }
 
 .input {
