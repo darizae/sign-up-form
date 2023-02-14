@@ -70,24 +70,76 @@ body {
   }
   
 
-#form {
+#form-div {
     background-color: white;
-    height: 50%;
+    height: 55%; /* increase the height */
     display: flex;
     justify-content: center;
+    padding: 1em; /* increase the padding */
+    background-image: url(img/wood-texture.jpg);
+    background-size: cover;
+    background-position: center;
 }
+  
 
-#log-in {
-    background-color: green;
-    height: 15.5%;
-}
-
-fieldset {
+form {
+    height: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-gap: 25px;
     width: 75%;
+}
+
+form label {
+    color: white;
+    font-size: larger;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="password"],
+  form input[type="email"],
+  form input[type="tel"] {
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    font-size: larger;
+  }
+  
+  form input[type="text"]::placeholder,
+  form input[type="password"]::placeholder,
+  form input[type="email"]::placeholder,
+  form input[type="tel"]::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  button {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:hover {
+    background-color: #f4f404;
+  }
+  
+  
+
+#log-in {
+    background-color: green;
+    height: 15.5%;
 }
 
 .input {
@@ -124,4 +176,7 @@ fieldset {
     grid-row: 3 / 4;
     grid-column: 2 / 3;
 }
-  
+
+#item7 {
+    grid-row: 4/4;
+}
