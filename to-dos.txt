@@ -1,9 +1,1 @@
-- Style form
-
-- Login section
-
-- Additional features of form section
-
-- Center quote so it's sort of aligned to form
-
-- Set option for light or dark mode (system default)
+- Additional form validation features
