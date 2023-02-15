@@ -161,17 +161,18 @@ form label {
     font-size: 20px;
 }
 
-input:invalid {
-    border-color: red;
- }
-  
-  input:valid {
-    border-color: green;
-}
-
 .input {
     display: flex;
     flex-direction: column;
+}
+
+.validation-message {
+   display: none;
+   color: red;
+}
+  
+.invalid-input {
+   border: 1px solid red;
 }
 
 #item1 {
